@@ -1,0 +1,129 @@
+.topnav{
+text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+  }
+
+button{
+    background-color: #9CFA00;
+    color:#303030;
+}
+
+*{
+
+    font-family: Poppins;
+}
+
+body{
+    background-color: #303030;
+    color: #ffffff;
+}
+
+#logo-home{
+    width: 200px;
+}
+
+
+
+
+.titulo-centrado{
+    text-align: center;
+}
+
+.recomendaciones{
+    list-style-type: none;
+}
+
+
+
+
+.box{
+        width: 300px;
+        border: 15px solid #9CFA00;
+        padding: 50px;
+        margin: 20px;
+      
+}
+
+
+
+.device-container{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+
+
+  .top-left{
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    color: #ff0000;
+    font-size: 70px;
+  }
+
+
+.top-right{
+    color:#ff0000;
+    font-size: 70px;
+      }
+  
+
+  .top-right-1{
+    position: absolute;
+    top: 50px;
+    right: 16px;
+  }
+
+  .top-right-2{
+    position: absolute;
+    top: 85px;
+    right: 16px;
+  }
+
+  .top-right-3{
+    position: absolute;
+    top: 120px;
+    right: 16px;
+  }
+
+
+
+
+#apple-mockup{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.foto-review{
+    width: 100px;
+}
+
+.job-icon{
+width: 100px;
+}
+
+
+.testimonial{
+    width: 300px;
+    border: 15px solid #9CFA00;
+    padding: 50px;
+    margin: 20px;
+        
+}
+
+
+
+
+
+
+footer{
+    text-align: center;
+}
