@@ -139,6 +139,10 @@ width: 100px;
     width: 50%;
 }
 
+.testimonial-individual-box{
+    display: flex;
+}
+
 
 .testimonial{
     width: 300px;
@@ -163,6 +167,10 @@ width: 100px;
     float: right;
     overflow: hidden;
     width: 50%;
+}
+
+.container-apply h2{
+    text-align: center;
 }
 
 .apply{
