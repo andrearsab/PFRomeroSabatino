@@ -1,3 +1,7 @@
+html{
+    position: relative;
+}
+
 .topnav{
 text-align: center;
 justify-content: center;
@@ -129,10 +133,12 @@ width: 100px;
 }
 
 
-
-.flex-container-testimonals{
-    display: flex;
+.container-testimonals{
+    float: left;
+    overflow: hidden;
+    width: 50%;
 }
+
 
 .testimonial{
     width: 300px;
@@ -143,12 +149,42 @@ width: 100px;
 }
 
 
-.flex-container-jobs{
+.container-trabaja{
+    float: left;
+    overflow: hidden;
+    width: 50%;
+}
+
+.job-overview{
     display: flex;
 }
 
+.container-apply{
+    float: right;
+    overflow: hidden;
+    width: 50%;
+}
+
+.apply{
+    text-align: center;
+}
+
+.flex-container-jobs{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.file-and-submit{
+    text-align: center;
+}
 
 
 footer{
     text-align: center;
+    width: 100%;
+}
+
+.pie-de-pagina{
+    position: absolute;
+    bottom: 0px;
 }
