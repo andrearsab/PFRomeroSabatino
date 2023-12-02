@@ -1,5 +1,8 @@
+/* ESTILOS GLOBALES */ 
+
 html{
     position: relative;
+    overflow-y: scroll;
 }
 
 .topnav{
@@ -43,32 +46,94 @@ body{
 }
 
 
-
-
 .titulo-centrado{
     text-align: center;
 }
 
-.recomendaciones{
-    list-style-type: none;
+
+footer{
+    text-align: center;
+    width: 100%;
+}
+
+.pie-de-pagina{
+    position: absolute;
+    bottom: 0px;
 }
 
 
 
 
-.flex-container-conocenos{
+/* ESTILOS INDEX */ 
+
+.activities{
+        width: 90%;
+        background-color: #303030;
+        color: #FFFFFF;
+        padding: 20px;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-radius:.50rem;
+        margin: auto;
+        display: flex;
+        }
+           
+
+.left-dashboard{
+    width: 30%;
+}
+
+
+.recomendaciones{
     display: flex;
 }
 
 
-.box{
-        width: 300px;
-        border: 15px solid #9CFA00;
-        padding: 50px;
-        margin: 20px;
-      
+
+
+/* ESTILOS CONÓCENOS */ 
+
+.titulo-conocenos{
+    text-align: center;
 }
 
+
+.flex-container-conocenos-1 {
+    display: flex;
+}
+
+.flex-container-conocenos-2 {
+    display: flex;
+}
+
+.box{
+    background-color: #9CFA00;
+    border: solid #9CFA00;
+    border-radius:.50rem;
+    padding: 50px;
+    margin: 20px;
+    height: 300px;
+}
+
+.box1{
+width: 70vw;
+}
+
+.box2{
+    width: 30vw;
+}
+
+.box3{
+    width: 40vw;
+    }
+    
+.box4{
+        width: 60vw;
+    }
+
+
+
+/* ESTILOS DISPOSITIVOS */ 
 
 
 .device-container{
@@ -124,6 +189,10 @@ a:hover .top-right{
   }
 
 
+
+  /* ESTILOS REVIEWS */ 
+
+
 .foto-review{
     width: 100px;
 }
@@ -146,11 +215,19 @@ width: 100px;
 
 .testimonial{
     width: 300px;
-    border: 15px solid #9CFA00;
-    padding: 50px;
+    background-color: #9CFA00;
+    color: #303030;
+    padding: 20px;
     margin: 20px;
+    font-size: 10px;
+    border-radius:.50rem
+    }
         
-}
+
+
+
+
+/* ESTILOS TRABAJA CON NOSOTROS */ 
 
 
 .container-trabaja{
@@ -161,6 +238,9 @@ width: 100px;
 
 .job-overview{
     display: flex;
+    column-gap: 100px;
+    padding-bottom: 80px;
+    text-align: center;
 }
 
 .container-apply{
@@ -187,12 +267,16 @@ width: 100px;
 }
 
 
-footer{
-    text-align: center;
-    width: 100%;
-}
 
-.pie-de-pagina{
-    position: absolute;
-    bottom: 0px;
-}
+
+/* RESPONSIVE */ 
+
+@media only screen and (max-width: 768px) {
+    .flex-container-conocenos-1 {
+      flex-direction: column;
+    }
+
+    .flex-container-conocenos-2 {
+        flex-direction: column;
+      }
+  }
