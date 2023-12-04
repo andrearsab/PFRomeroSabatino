@@ -152,7 +152,7 @@ width: 70vw;
 }
 
 
-  .top-left{
+.top-left{
     position: absolute;
     top: 50px;
     left: 16px;
@@ -171,19 +171,19 @@ a:hover .top-right{
 }
   
 
-  .top-right-1{
+.top-right-1{
     position: absolute;
     top: 50px;
     right: 16px;
   }
 
-  .top-right-2{
+.top-right-2{
     position: absolute;
     top: 140px;
     right: 16px;
   }
 
-  .top-right-3{
+.top-right-3{
     position: absolute;
     top: 230px;
     right: 16px;
@@ -203,7 +203,6 @@ width: 100px;
 }
 
 
-
 .container-testimonals{
     float: left;
     width: 50%;
@@ -214,7 +213,6 @@ width: 100px;
     align-items: center;
     justify-content: center;
 }
-
 
 
 
@@ -229,14 +227,14 @@ width: 100px;
     }
         
 
-    .container-sharing{
+.container-sharing{
         justify-content: center;
         text-align: center;
         width: 50%;
         float: right;
     }
     
-    .container-sharing p{
+.container-sharing p{
         text-align: justify;
     }
 
@@ -372,12 +370,12 @@ width: 100px;
       }
 
 
-      .testimonial-individual-box{
+    .testimonial-individual-box{
         justify-content: center;
         margin: 0 auto;
       }
 
-      .testimonial{
+    .testimonial{
         width: 200px;
         color: #303030;
         padding: 20px;
