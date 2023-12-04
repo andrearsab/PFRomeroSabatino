@@ -54,11 +54,7 @@ body{
 footer{
     text-align: center;
     width: 100%;
-}
-
-.pie-de-pagina{
-    position: absolute;
-    bottom: 0px;
+    display: inline-block;
 }
 
 
@@ -95,6 +91,11 @@ footer{
 
 .titulo-conocenos{
     text-align: center;
+}
+
+.about-us{
+    text-align: justify;
+    margin: 10px 20px;
 }
 
 
@@ -202,15 +203,23 @@ width: 100px;
 }
 
 
+
 .container-testimonals{
     float: left;
-    overflow: hidden;
     width: 50%;
 }
 
 .testimonial-individual-box{
     display: flex;
+    align-items: center;
 }
+
+
+.container-sharing{
+    float: right;
+    width: 50%;
+}
+
 
 
 .testimonial{
@@ -239,7 +248,6 @@ width: 100px;
 .job-overview{
     display: flex;
     column-gap: 100px;
-    padding-bottom: 80px;
     text-align: center;
 }
 
@@ -271,12 +279,92 @@ width: 100px;
 
 /* RESPONSIVE */ 
 
-@media only screen and (max-width: 768px) {
-    .flex-container-conocenos-1 {
-      flex-direction: column;
+@media only screen and (max-width: 1024px) {
+
+    .container-testimonals{
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        float: none;
+        position: relative;
+        margin: 0 auto;
     }
 
-    .flex-container-conocenos-2 {
+    .container-sharing{
+        width: 80%;
+        overflow: hidden;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        align-self: center;
+    }
+
+
+
+    .testimonial-individual-box{
+        width: 80%;
+        align-content: center;
+        align-self: center;
+        margin: auto 0;
+    }
+
+
+    .container-sharing p{
+        text-align: justify;
+    }
+} 
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .topnav{
+        flex-direction: column;
+    }
+
+
+    .flex-container-conocenos-1 {
         flex-direction: column;
       }
+  
+    .flex-container-conocenos-2 {
+          flex-direction: column;
+        }
+  
+    .box{
+          width: 70%;
+          margin: 10px;
+          align-self: center;
+      }
+
+
+      .testimonial-individual-box{
+        justify-content: center;
+        margin: 0 auto;
+      }
+
+      .testimonial{
+        width: 200px;
+    color: #303030;
+    padding: 20px;
+    margin: 20px;
+    font-size: 10px;}
+    
+    .container-sharing{
+        width: 80%;
+        text-align: center;
+        align-self: center;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .container-sharing p{
+        text-align: justify;
+    }
+  
+    footer {
+          font-size: 12px;
+      }
+
   }
