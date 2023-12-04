@@ -212,13 +212,9 @@ width: 100px;
 .testimonial-individual-box{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-
-.container-sharing{
-    float: right;
-    width: 50%;
-}
 
 
 
@@ -232,6 +228,17 @@ width: 100px;
     border-radius:.50rem
     }
         
+
+    .container-sharing{
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+        float: right;
+    }
+    
+    .container-sharing p{
+        text-align: justify;
+    }
 
 
 
@@ -299,8 +306,6 @@ width: 100px;
         align-self: center;
     }
 
-
-
     .testimonial-individual-box{
         width: 80%;
         align-content: center;
@@ -312,6 +317,34 @@ width: 100px;
     .container-sharing p{
         text-align: justify;
     }
+
+
+
+    .top-left{
+        font-size: 60px;
+    }
+
+    a:hover .top-right{
+        font-size: 65px;
+    }
+
+    .top-right{
+        font-size: 60px;
+        top: 50px;
+    }
+
+    .top-right-1{
+        top: 160px;
+      }
+    
+      .top-right-2{
+        top: 270px;
+      }
+    
+      .top-right-3{
+        top: 380px;
+      }
+
 } 
 
 
@@ -346,10 +379,10 @@ width: 100px;
 
       .testimonial{
         width: 200px;
-    color: #303030;
-    padding: 20px;
-    margin: 20px;
-    font-size: 10px;}
+        color: #303030;
+        padding: 20px;
+        margin: 20px;
+        font-size: 10px;}
     
     .container-sharing{
         width: 80%;
@@ -362,6 +395,33 @@ width: 100px;
     .container-sharing p{
         text-align: justify;
     }
+
+    .top-left{
+        font-size: 40px;
+    }
+
+    a:hover .top-right{
+        font-size: 45px;
+    }
+
+    .top-right{
+        font-size: 40px;
+    }
+
+    .top-right-1{
+        top: 120px;
+      }
+    
+      .top-right-2{
+        top: 190px;
+      }
+    
+      .top-right-3{
+        top: 260px;
+      }
+
+
+
   
     footer {
           font-size: 12px;
