@@ -84,6 +84,10 @@ footer{
     display: flex;
 }
 
+.rec-tool a{
+    color: #FFFFFF;
+}
+
 
 
 
@@ -305,7 +309,6 @@ width: 100px;
     }
 
     .testimonial-individual-box{
-        width: 80%;
         align-content: center;
         align-self: center;
         margin: auto 0;
@@ -335,11 +338,11 @@ width: 100px;
         top: 160px;
       }
     
-      .top-right-2{
+    .top-right-2{
         top: 270px;
       }
     
-      .top-right-3{
+    .top-right-3{
         top: 380px;
       }
 
@@ -354,6 +357,11 @@ width: 100px;
         flex-direction: column;
     }
 
+    .about-us{
+        text-align: justify;
+        margin: 30px 40px;
+    }
+
 
     .flex-container-conocenos-1 {
         flex-direction: column;
@@ -364,7 +372,8 @@ width: 100px;
         }
   
     .box{
-          width: 70%;
+          width: 70vw;
+          height: 90px;
           margin: 10px;
           align-self: center;
       }
@@ -419,10 +428,59 @@ width: 100px;
       }
 
 
-
   
     footer {
           font-size: 12px;
       }
 
+  }
+
+
+
+
+  @media (max-width: 413px) {
+
+
+    .box{
+        width: 55vw;
+        height: 50px;
+        margin: 10px;
+        align-self: center;
+        font-size: 12px;
+    }
+
+    .top-left{
+        font-size: 30px;
+    }
+
+    a:hover .top-right{
+        font-size: 35px;
+    }
+
+    .top-right{
+        font-size: 30px;
+    }
+
+    .top-right-1{
+        top: 120px;
+      }
+    
+    .top-right-2{
+        top: 160px;
+      }
+    
+    .top-right-3{
+        top: 200px;
+      }
+
+
+
+    .testimonial{
+        width: 100px;
+        font-size: 10px;}
+
+
+    footer {
+            font-size: 9px;
+        }
   }
