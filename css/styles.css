@@ -227,7 +227,7 @@ width: 100px;
     color: #303030;
     padding: 20px;
     margin: 20px;
-    font-size: 10px;
+    font-size: 12px;
     border-radius:.50rem;
     color: #ffffff;
     }
@@ -278,6 +278,10 @@ width: 100px;
     display: flex;
     column-gap: 100px;
     text-align: center;
+}
+
+.job-icon-1{
+    fill: #9CFA00;
 }
 
 .container-apply{
