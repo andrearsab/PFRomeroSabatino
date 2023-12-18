@@ -6,17 +6,16 @@ html{
 }
 
 .topnav{
-text-align: center;
-justify-content: center;
-display: flex;
+    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 .topnav a{
-        padding: 30px 30px 10px 30px;
-        color: white;
-        text-align: center; 
-      }
-
+    padding: 30px 30px 10px 30px;
+    color: white;
+    text-align: center; 
+}
 
 a{
     text-decoration: none;
@@ -24,7 +23,7 @@ a{
 
 a:visited {
     color: #ffffff;
-  }
+}
 
 button{
     background-color: #9CFA00;
@@ -32,7 +31,6 @@ button{
 }
 
 *{
-
     font-family: Poppins;
 }
 
@@ -45,11 +43,9 @@ body{
     width: 200px;
 }
 
-
 .titulo-centrado{
     text-align: center;
 }
-
 
 footer{
     text-align: center;
@@ -58,22 +54,19 @@ footer{
 }
 
 
-
-
 /* ESTILOS INDEX */ 
 
 .activities{
-        width: 90%;
-        background-color: #303030;
-        color: #FFFFFF;
-        padding: 20px;
-        border-style: solid;
-        border-color: rgb(0, 0, 0);
-        border-radius:.50rem;
-        margin: auto;
-        display: flex;
-        }
-           
+    width: 90%;
+    background-color: #303030;
+    color: #FFFFFF;
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius:.50rem;
+    margin: auto;
+    display: flex;
+}   
 
 .left-dashboard{
     width: 30%;
@@ -89,8 +82,6 @@ footer{
 }
 
 
-
-
 /* ESTILOS CONÓCENOS */ 
 
 .titulo-conocenos{
@@ -101,7 +92,6 @@ footer{
     text-align: justify;
     margin: 10px 20px;
 }
-
 
 .flex-container-conocenos-1 {
     display: flex;
@@ -131,13 +121,12 @@ background-color: #B286FD;
 .box3{
     width: 40vw;
     background-color: #9CFA00;
-    }
-    
-.box4{
-        width: 60vw;
-        background-color: #101010;
-    }
+}
 
+.box4{
+    width: 60vw;
+    background-color: #101010;
+}
 
 
 /* ESTILOS DISPOSITIVOS */ 
@@ -147,9 +136,7 @@ background-color: #B286FD;
     position: relative;
     text-align: center;
     color: white;
-  }
-
-
+}
 
 #apple-mockup{
     width: 100%;
@@ -157,45 +144,40 @@ background-color: #B286FD;
     opacity: 0.6;
 }
 
-
 .top-left{
     position: absolute;
     top: 50px;
     left: 16px;
     color: #ffffff;
     font-size: 70px;
-  }
-
+}
 
 .top-right{
     color:#ffffff;
     font-size: 70px;
-      }
+}
 
 a:hover .top-right{
     font-size: 75px;
 }
-  
 
 .top-right-1{
     position: absolute;
     top: 50px;
     right: 16px;
-  }
+}
 
 .top-right-2{
     position: absolute;
     top: 140px;
     right: 16px;
-  }
+}
 
 .top-right-3{
     position: absolute;
     top: 230px;
     right: 16px;
-  }
-
-
+}
 
   /* ESTILOS REVIEWS */ 
 
@@ -205,9 +187,8 @@ a:hover .top-right{
 }
 
 .job-icon{
-width: 100px;
+    width: 100px;
 }
-
 
 .container-testimonals{
     float: left;
@@ -220,8 +201,6 @@ width: 100px;
     justify-content: center;
 }
 
-
-
 .testimonial{
     width: 300px;
     color: #303030;
@@ -230,39 +209,34 @@ width: 100px;
     font-size: 12px;
     border-radius:.50rem;
     color: #ffffff;
-    }
+}
 
-
-    .testimonial-1{
-        background-color: #9CFA00;
-    } 
+.testimonial-1{
+    background-color: #9CFA00;
+} 
     
-    .testimonial-2{
-        background-color: #101010;
-    }
+.testimonial-2{
+    background-color: #101010;
+}
     
-    .testimonial-3{
-        background-color: #E55733;
-    }
+.testimonial-3{
+    background-color: #E55733;
+}
     
-    .testimonial-4{
-        background-color: #B286FD;
-    }
-
-        
+.testimonial-4{
+    background-color: #B286FD;
+}
 
 .container-sharing{
-        justify-content: center;
-        text-align: center;
-        width: 50%;
-        float: right;
-    }
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    float: right;
+}
     
 .container-sharing p{
-        text-align: justify;
-    }
-
-
+    text-align: justify;
+}
 
 
 /* ESTILOS TRABAJA CON NOSOTROS */ 
@@ -308,8 +282,6 @@ width: 100px;
 }
 
 
-
-
 /* RESPONSIVE */ 
 
 @media only screen and (max-width: 1024px) {
@@ -338,12 +310,9 @@ width: 100px;
         margin: auto 0;
     }
 
-
     .container-sharing p{
         text-align: justify;
     }
-
-
 
     .top-left{
         font-size: 60px;
@@ -360,19 +329,17 @@ width: 100px;
 
     .top-right-1{
         top: 160px;
-      }
+    }
     
     .top-right-2{
         top: 270px;
-      }
+    }
     
     .top-right-3{
         top: 380px;
-      }
+    }
 
 } 
-
-
 
 
 @media only screen and (max-width: 768px) {
