@@ -348,6 +348,49 @@ a:hover .top-right{
         flex-direction: column;
     }
 
+    #logo-home{
+        width: 30%;
+        height: 30%;
+    }
+
+    .activities{
+        display: block;
+    }
+
+    .left-dashboard{
+        display: flex;
+        bottom: 0;
+        position: relative;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+    .reco{
+        text-align: center;
+    }
+
+    .howdy{
+        text-align: left;
+    }
+
+    .dashboard-activities{
+        text-align: center;
+    }
+
+    .recomendaciones{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rec-tool{
+        justify-content: space-between;
+    }
+
+
+
+
+
     .about-us{
         text-align: justify;
         margin: 30px 40px;
@@ -356,24 +399,23 @@ a:hover .top-right{
 
     .flex-container-conocenos-1 {
         flex-direction: column;
-      }
-  
-    .flex-container-conocenos-2 {
-          flex-direction: column;
-        }
-  
-    .box{
-          width: 70vw;
-          height: 90px;
-          margin: 10px;
-          align-self: center;
-      }
+    }
 
+    .flex-container-conocenos-2 {
+        flex-direction: column;
+    }
+
+    .box{
+        width: 70vw;
+        height: 90px;
+        margin: 10px;
+        align-self: center;
+    }
 
     .testimonial-individual-box{
         justify-content: center;
         margin: 0 auto;
-      }
+    }
 
     .testimonial{
         width: 200px;
@@ -408,28 +450,30 @@ a:hover .top-right{
 
     .top-right-1{
         top: 120px;
-      }
+    }
     
-      .top-right-2{
+    .top-right-2{
         top: 190px;
-      }
+    }
     
-      .top-right-3{
+    .top-right-3{
         top: 260px;
-      }
+    }
 
-
-  
     footer {
-          font-size: 12px;
-      }
+        font-size: 12px;
+    }
 
-  }
-
-
+}
 
 
-  @media (max-width: 413px) {
+
+
+@media (max-width: 413px) {
+
+
+
+
 
 
     .box{
@@ -454,24 +498,23 @@ a:hover .top-right{
 
     .top-right-1{
         top: 120px;
-      }
+    }
     
     .top-right-2{
         top: 160px;
-      }
+    }
     
     .top-right-3{
         top: 200px;
-      }
-
-
+    }
 
     .testimonial{
         width: 100px;
-        font-size: 10px;}
+        font-size: 10px;
+    }
 
 
     footer {
             font-size: 9px;
-        }
-  }
+    }
+}
