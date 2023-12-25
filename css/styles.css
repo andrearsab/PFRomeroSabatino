@@ -72,11 +72,6 @@ footer{
     width: 30%;
 }
 
-
-.recomendaciones{
-    display: flex;
-}
-
 .rec-tool a{
     color: #FFFFFF;
 }
@@ -236,6 +231,7 @@ a:hover .top-right{
     
 .container-sharing p{
     text-align: justify;
+    padding: 0 30px 30px 30px;
 }
 
 
@@ -248,10 +244,20 @@ a:hover .top-right{
     width: 50%;
 }
 
+.container-trabaja h1{
+    text-align: center;
+}
+
+.container-trabaja p{
+    text-align: justify;
+    padding: 0 30px 30px 30px;
+}
+
 .job-overview{
     display: flex;
-    column-gap: 100px;
+    column-gap: 80px;
     text-align: center;
+    justify-content: center;
 }
 
 .job-icon-1{
@@ -339,6 +345,11 @@ a:hover .top-right{
         top: 380px;
     }
 
+    .job-overview{
+        column-gap: 20px;
+        align-items: center;
+    }
+
 } 
 
 
@@ -386,10 +397,6 @@ a:hover .top-right{
     .rec-tool{
         justify-content: space-between;
     }
-
-
-
-
 
     .about-us{
         text-align: justify;
@@ -460,6 +467,30 @@ a:hover .top-right{
         top: 260px;
     }
 
+
+    .container-trabaja{
+        width: 95%;
+        align-items: center;
+        margin: auto;
+        float: none;
+    }
+
+    .container-trabaja h1{
+        text-align: center;
+    }
+
+
+    .container-apply{
+        float: none;
+        overflow:hidden;
+        width: 100%;
+    }
+
+    .job-overview{
+        column-gap: none;
+        display: block;
+    }
+
     footer {
         font-size: 12px;
     }
@@ -470,11 +501,6 @@ a:hover .top-right{
 
 
 @media (max-width: 413px) {
-
-
-
-
-
 
     .box{
         width: 55vw;
@@ -512,7 +538,6 @@ a:hover .top-right{
         width: 100px;
         font-size: 10px;
     }
-
 
     footer {
             font-size: 9px;
