@@ -64,9 +64,10 @@
     <input type="text" id="email" name="email" placeholder="Correo electrónico"><br>
     <br>
 
-    <label for="jobs">¿Cúal posición te interesa?</label>
+    <label class="job-selector" for="jobs">¿Cúal posición te interesa?</label>
     <br>
-    <select name="jobs" id="jobs">
+    <br>
+    <select name="jobs" id="jobs" class="minimal">
     <option value="volvo">Wellness Facilitator</option>
     <option value="saab">UX/UI Designer</option>
     <option value="opel">Developer</option>
@@ -74,16 +75,15 @@
     <br>
 
     <label for="comment"></label><br>
-    <input type="text" id="comment" name="comment" placeholder="Utiliza este espacio para hablarnos de ti, linkear tu portafolio, LinkedIn, o acotar cualquier información extra">
+    <textarea id= "comment" placeholder= "Utiliza este espacio para hablarnos de ti, linkear tu portafolio, LinkedIn, o acotar cualquier información extra"></textarea>
     </form>
-    <br>
 
   <div class="file-and-submit">
     <p>Adjunta tu curriculum vitae (PDF)<span style="color:rgb(255, 0, 0);">*</span></p>
-    <input type="file" id="myFile" name="filename">          
+    <input type="file" id="myFile" class="myFile" name="filename">          
     <br>
     <br>
-    <button type="button">Enviar</button>
+    <button class="button-trabaja" type="button">Enviar</button>
   </div>
   </div>
     
