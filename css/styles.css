@@ -72,8 +72,14 @@ footer{
     width: 30%;
 }
 
-.rec-tool a{
+.rec-tool-test a{
     color: #FFFFFF;
+}
+
+.rec-tool-test{
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
 }
 
 
