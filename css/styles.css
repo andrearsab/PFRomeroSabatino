@@ -40,7 +40,7 @@ body{
 }
 
 #logo-home{
-    width: 200px;
+    width: 150px;
 }
 
 .titulo-centrado{
@@ -69,7 +69,7 @@ footer{
 }   
 
 .left-dashboard{
-    width: 30%;
+    width: 35%;
 }
 
 .rec-tool-test a{
@@ -499,8 +499,8 @@ select:-moz-focusring {
     }
 
     #logo-home{
-        width: 30%;
         height: 30%;
+        width: 30%;
     }
 
     .activities{
