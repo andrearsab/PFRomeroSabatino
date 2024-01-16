@@ -55,6 +55,8 @@ footer{
     text-align: center;
     width: 100%;
     display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 
@@ -68,7 +70,7 @@ footer{
     border-style: solid;
     border-color: rgb(0, 0, 0);
     border-radius:.50rem;
-    margin: 30px auto;
+    margin: 30px auto 10px auto;
     display: flex;
 }   
 
@@ -113,23 +115,27 @@ footer{
     height: 300px;
 }
 
+.box p{
+    text-align: justify;
+}
+
 .box1{
-width: 70vw;
+width: 60vw;
 background-color: #B286FD;
 }
 
 .box2{
-    width: 30vw;
+    width: 40vw;
     background-color: #E55733;
 }
 
 .box3{
-    width: 40vw;
+    width: 45vw;
     background-color: #9CFA00;
 }
 
 .box4{
-    width: 60vw;
+    width: 55vw;
     background-color: #101010;
 }
 
@@ -189,6 +195,7 @@ a:hover .top-right{
 
 .foto-review{
     width: 100px;
+    border-radius:.50rem;
 }
 
 .job-icon{
