@@ -64,11 +64,11 @@ footer{
 
 .activities{
     width: 90%;
-    background-color: #303030;
+    background-color: #101010;
     color: #FFFFFF;
-    padding: 20px;
+    padding: 40px 30px;
     border-style: solid;
-    border-color: rgb(0, 0, 0);
+    border-color: #101010;
     border-radius:.50rem;
     margin: 30px auto 10px auto;
     display: flex;
@@ -76,6 +76,12 @@ footer{
 
 .left-dashboard{
     width: 35%;
+}
+
+.g-calendar{
+    filter: invert(.9) saturate(0.5) hue-rotate(145deg);
+    width: 50vw;
+    height: 60vh;
 }
 
 .rec-tool-test a{
@@ -112,16 +118,18 @@ footer{
     border-radius:.50rem;
     padding: 50px;
     margin: 20px;
-    height: 300px;
+    height: auto;
+    overflow: hidden;
 }
 
 .box p{
     text-align: justify;
+    font-size: 17px;
 }
 
 .box1{
-width: 60vw;
-background-color: #B286FD;
+    width: 60vw;
+    background-color: #B286FD;
 }
 
 .box2{
@@ -564,7 +572,7 @@ select:-moz-focusring {
 
     .box{
         width: 70vw;
-        height: 90px;
+        height: min-content;
         margin: 10px;
         align-self: center;
     }
