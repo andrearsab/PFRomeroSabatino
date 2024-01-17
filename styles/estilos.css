@@ -1,10 +1,24 @@
-@import "./components/header";
-@import "./components/footer";
-@import "../scss/base/variables.scss";
-@import "../scss/base/maps.scss";
+@charset "UTF-8";
+.topnav {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.topnav a {
+    padding: 30px 30px 10px 30px;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
 
 /* ESTILOS GLOBALES */
-
 html {
     position: relative;
     overflow-y: scroll;
@@ -12,16 +26,15 @@ html {
 
 a {
     text-decoration: none;
-
-    &:link, &:visited {
-    color: $visited-links;
-    }
+}
+a:link, a:visited {
+    color: #FFFFFF;
 }
 
 button {
-    background-color: $color-button;
-    color: $color-button-text;
-    border-radius: map-get($map: $forma, $key: bordeMarco)
+    background-color: #9CFA00;
+    color: #101010;
+    border-radius: 1rem;
 }
 
 * {
@@ -37,9 +50,7 @@ body {
     text-align: center;
 }
 
-
-  /* ESTILOS INDEX */
-
+/* ESTILOS INDEX */
 #logo-home {
     width: 150px;
 }
@@ -51,7 +62,7 @@ body {
     padding: 40px 30px;
     border-style: solid;
     border-color: #101010;
-    border-radius: .50rem;
+    border-radius: 0.5rem;
     margin: 30px auto 10px auto;
     display: flex;
 }
@@ -67,17 +78,15 @@ body {
 }
 
 .rec-tool-test {
-    a {
-    color: #FFFFFF;
-    }
-
     display: flex;
     flex-direction: column;
     text-decoration: underline;
 }
+.rec-tool-test a {
+    color: #FFFFFF;
+}
 
-  /* ESTILOS CONÓCENOS */
-
+/* ESTILOS CONÓCENOS */
 .titulo-conocenos {
     text-align: center;
 }
@@ -92,21 +101,19 @@ body {
 }
 
 .box {
-    border-radius: .50rem;
+    border-radius: 0.5rem;
     padding: 50px;
     margin: 20px;
     height: auto;
     overflow: hidden;
-
-    &:hover {
+}
+.box:hover {
     background-color: #ffffff;
     color: #101010;
-    }
-
-    p {
+}
+.box p {
     text-align: justify;
     font-size: 17px;
-    }
 }
 
 .box1 {
@@ -129,8 +136,7 @@ body {
     background-color: #101010;
 }
 
-  /* ESTILOS DISPOSITIVOS */
-
+/* ESTILOS DISPOSITIVOS */
 .device-container {
     position: relative;
     text-align: center;
@@ -178,15 +184,14 @@ a:hover .top-right {
     right: 16px;
 }
 
-  /* ESTILOS REVIEWS */
-
+/* ESTILOS REVIEWS */
 .foto-review {
     width: 100px;
-    border-radius: .50rem;
+    border-radius: 0.5rem;
 }
 
 .job-icon {
-    width: 100px;
+  width: 100px;
 }
 
 .container-testimonals {
@@ -207,7 +212,7 @@ a:hover .top-right {
     padding: 20px;
     margin: 20px;
     font-size: 12px;
-    border-radius: .50rem;
+    border-radius: 0.5rem;
     color: #ffffff;
 }
 
@@ -233,15 +238,13 @@ a:hover .top-right {
     width: 50%;
     float: right;
     padding: 20px 0;
-
-    p {
+}
+.container-sharing p {
     text-align: justify;
     padding: 0 30px 5px 30px;
-    }
 }
 
-  /* REVIEWS FORM */
-
+/* REVIEWS FORM */
 #fname {
     padding: 10px;
     border-radius: 50px;
@@ -266,22 +269,19 @@ a:hover .top-right {
     border-style: none;
 }
 
-  /* ESTILOS TRABAJA CON NOSOTROS */
-
+/* ESTILOS TRABAJA CON NOSOTROS */
 .container-trabaja {
     float: left;
     overflow: hidden;
     width: 50%;
     padding: 20px 0;
-
-    h1 {
+}
+.container-trabaja h1 {
     text-align: center;
-    }
-
-    p {
+}
+.container-trabaja p {
     text-align: justify;
     padding: 0 30px 30px 30px;
-    }
 }
 
 .job-overview {
@@ -300,10 +300,9 @@ a:hover .top-right {
     overflow: hidden;
     width: 50%;
     padding: 20px 0;
-
-    h2 {
+}
+.container-apply h2 {
     text-align: center;
-    }
 }
 
 .apply {
@@ -319,8 +318,7 @@ a:hover .top-right {
     text-align: center;
 }
 
-  /* TRABAJA FORM */
-
+/* TRABAJA FORM */
 #lname, #email {
     padding: 10px;
     border-radius: 50px;
@@ -338,42 +336,38 @@ a:hover .top-right {
 }
 
 select {
-    &.minimal {
-    background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
-    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
-    background-size: 5px 5px, 5px 5px, 1px 1.5em;
-    background-repeat: no-repeat;
-    &:focus {
-        background-image: linear-gradient(45deg, green 50%, transparent 50%), linear-gradient(135deg, transparent 50%, green 50%), linear-gradient(to right, #ccc, #ccc);
-        background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em, calc(100% - 2.5em) 0.5em;
-        background-size: 5px 5px, 5px 5px, 1px 1.5em;
-        background-repeat: no-repeat;
-        border-color: green;
-        outline: 0;
-    }
-    }
-
-    /* styling */
+  /* styling */
     background-color: white;
     border: thin solid blue;
     border-radius: 4px;
     display: inline-block;
     line-height: 1.5em;
     padding: 0.5em 3.5em 0.5em 1em;
-
-    /* reset */
-
+  /* reset */
     margin: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-appearance: none;
     -moz-appearance: none;
-
-    &:-moz-focusring {
+}
+select.minimal {
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+}
+select.minimal:focus {
+    background-image: linear-gradient(45deg, green 50%, transparent 50%), linear-gradient(135deg, transparent 50%, green 50%), linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em, calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
+}
+select:-moz-focusring {
     color: transparent;
     text-shadow: 0 0 0 #000;
-    }
 }
 
 ::file-selector-button {
@@ -389,8 +383,7 @@ select {
     border-style: none;
 }
 
-  /* RESPONSIVE */
-
+/* RESPONSIVE */
 @media only screen and (max-width: 1024px) {
     .container-testimonals {
     align-content: center;
@@ -400,7 +393,6 @@ select {
     position: relative;
     margin: 0 auto;
     }
-
     .container-sharing {
     width: 80%;
     overflow: hidden;
@@ -409,62 +401,49 @@ select {
     text-align: center;
     align-self: center;
     }
-
     .testimonial-individual-box {
     align-content: center;
     align-self: center;
     margin: auto 0;
     }
-
     .container-sharing p {
     text-align: justify;
     }
-
     .top-left {
     font-size: 60px;
     }
-
     a:hover .top-right {
     font-size: 65px;
     }
-
     .top-right {
     font-size: 60px;
     top: 50px;
     }
-
     .top-right-1 {
     top: 160px;
     }
-
     .top-right-2 {
     top: 270px;
     }
-
     .top-right-3 {
     top: 380px;
     }
-
     .job-overview {
     column-gap: 20px;
     align-items: center;
     }
 }
-
 @media only screen and (max-width: 768px) {
     .topnav {
     flex-direction: column;
     }
-
     #logo-home {
     height: 30%;
     width: 30%;
     }
-
     .activities {
-    display: block;
+        display: block;
     }
-
     .left-dashboard {
     display: flex;
     bottom: 0;
@@ -472,49 +451,39 @@ select {
     width: 100%;
     justify-content: space-between;
     }
-
     .reco {
     text-align: center;
     }
-
     .howdy {
     text-align: left;
     }
-
     .dashboard-activities {
     text-align: center;
     }
-
     .recomendaciones {
     flex-direction: column;
     text-align: center;
     }
-
     .rec-tool {
     justify-content: space-between;
     }
-
     .about-us {
     text-align: justify;
     margin: 30px 40px;
     }
-
     .flex-container-conocenos-1, .flex-container-conocenos-2 {
     flex-direction: column;
     }
-
     .box {
     width: 70vw;
     height: min-content;
     margin: 10px;
     align-self: center;
     }
-
     .testimonial-individual-box {
     justify-content: center;
     margin: 0 auto;
     }
-
     .testimonial {
     width: 200px;
     color: #ffffff;
@@ -522,70 +491,56 @@ select {
     margin: 20px;
     font-size: 10px;
     }
-
     .container-sharing {
     width: 80%;
     text-align: center;
     align-self: center;
     float: none;
     margin: 0 auto;
-
-    p {
+    }
+    .container-sharing p {
     text-align: justify;
     }
-    }
-
     .top-left {
     font-size: 40px;
     }
-
     a:hover .top-right {
     font-size: 45px;
     }
-
     .top-right {
     font-size: 40px;
     }
-
     .top-right-1 {
     top: 120px;
     }
-
     .top-right-2 {
     top: 190px;
     }
-
     .top-right-3 {
     top: 260px;
     }
-
     .container-trabaja {
     width: 95%;
     align-items: center;
     margin: auto;
     float: none;
-
-    h1 {
-        text-align: center;
     }
+    .container-trabaja h1 {
+    text-align: center;
     }
-
     .container-apply {
     float: none;
     overflow: hidden;
     width: 100%;
     }
-
     .job-overview {
     column-gap: none;
     display: block;
     }
-
     footer {
     font-size: 12px;
     }
 }
-
 @media (max-width: 413px) {
     .box {
     width: 55vw;
@@ -594,37 +549,31 @@ select {
     align-self: center;
     font-size: 12px;
     }
-
     .top-left {
     font-size: 30px;
     }
-
     a:hover .top-right {
     font-size: 35px;
     }
-
     .top-right {
     font-size: 30px;
     }
-
     .top-right-1 {
     top: 120px;
     }
-
     .top-right-2 {
     top: 160px;
     }
-
     .top-right-3 {
     top: 200px;
     }
-
     .testimonial {
     width: 100px;
     font-size: 10px;
     }
-
     footer {
     font-size: 9px;
     }
 }
+
+/*# sourceMappingURL=estilos.css.map */
