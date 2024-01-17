@@ -122,6 +122,11 @@ footer{
     overflow: hidden;
 }
 
+.box:hover{
+    background-color: #ffffff;
+    color: #101010;
+}
+
 .box p{
     text-align: justify;
     font-size: 17px;
