@@ -32,8 +32,8 @@ a:link, a:visited {
 }
 
 button {
-    background-color: #9CFA00;
-    color: #101010;
+    background-color: #548900;
+    color: #ffffff;
     border-radius: 1rem;
 }
 
@@ -128,7 +128,7 @@ body {
 
 .box3 {
     width: 45vw;
-    background-color: #9CFA00;
+    background-color: #548900;
 }
 
 .box4 {
@@ -191,7 +191,7 @@ a:hover .top-right {
 }
 
 .job-icon {
-  width: 100px;
+    width: 100px;
 }
 
 .container-testimonals {
@@ -217,7 +217,7 @@ a:hover .top-right {
 }
 
 .testimonial-1 {
-    background-color: #9CFA00;
+    background-color: #548900;
 }
 
 .testimonial-2 {
@@ -292,7 +292,7 @@ a:hover .top-right {
 }
 
 .job-icon-1 {
-    fill: #9CFA00;
+    fill: #548900;
 }
 
 .container-apply {
@@ -358,11 +358,11 @@ select.minimal {
     background-repeat: no-repeat;
 }
 select.minimal:focus {
-    background-image: linear-gradient(45deg, green 50%, transparent 50%), linear-gradient(135deg, transparent 50%, green 50%), linear-gradient(to right, #ccc, #ccc);
+    background-image: linear-gradient(45deg, rgb(0, 128, 0) 50%, transparent 50%), linear-gradient(135deg, transparent 50%, green 50%), linear-gradient(to right, #ccc, #ccc);
     background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em, calc(100% - 2.5em) 0.5em;
     background-size: 5px 5px, 5px 5px, 1px 1.5em;
     background-repeat: no-repeat;
-    border-color: green;
+    border-color: rgb(0, 128, 0);
     outline: 0;
 }
 select:-moz-focusring {
@@ -385,6 +385,10 @@ select:-moz-focusring {
 
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px) {
+
+
+
+    
     .container-testimonals {
     align-content: center;
     align-items: center;
