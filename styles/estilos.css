@@ -3,6 +3,7 @@
     text-align: center;
     justify-content: center;
     display: flex;
+    padding-bottom: 10px;
 }
 .topnav a {
     padding: 30px 30px 10px 30px;
@@ -33,7 +34,6 @@ a:link, a:visited {
 
 button {
     background-color: #548900;
-    color: #ffffff;
     border-radius: 1rem;
 }
 
@@ -53,7 +53,9 @@ body {
 /* ESTILOS INDEX */
 #logo-home {
     width: 150px;
+    padding-bottom: 30px;
 }
+
 
 .activities {
     width: 90%;
@@ -65,16 +67,27 @@ body {
     border-radius: 0.5rem;
     margin: 30px auto 10px auto;
     display: flex;
+    font-size: 20px;
 }
 
 .left-dashboard {
     width: 35%;
 }
 
+.nuevo-habito-button{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
 .g-calendar {
     filter: invert(0.9) saturate(0.5) hue-rotate(145deg);
     width: 50vw;
     height: 60vh;
+    padding-bottom: 50px;
+}
+
+.recomendaciones{
+    padding-bottom: 50px;
 }
 
 .rec-tool-test {
@@ -87,8 +100,10 @@ body {
 }
 
 /* ESTILOS CONÓCENOS */
+
 .titulo-conocenos {
     text-align: center;
+    padding-top: 20px;
 }
 
 .about-us {
@@ -237,7 +252,8 @@ a:hover .top-right {
     text-align: center;
     width: 50%;
     float: right;
-    padding: 20px 0;
+    padding: 20px 60px;
+    margin: 20px auto;
 }
 .container-sharing p {
     text-align: justify;
@@ -274,7 +290,8 @@ a:hover .top-right {
     float: left;
     overflow: hidden;
     width: 50%;
-    padding: 20px 0;
+    padding: 20px 60px;
+    margin: 20px auto;
 }
 .container-trabaja h1 {
     text-align: center;
@@ -404,6 +421,7 @@ select:-moz-focusring {
     margin: 0 auto;
     text-align: center;
     align-self: center;
+    padding: 0;
     }
     .testimonial-individual-box {
     align-content: center;
@@ -442,32 +460,42 @@ select:-moz-focusring {
     flex-direction: column;
     }
     #logo-home {
-    height: 30%;
-    width: 30%;
+    height: 50%;
+    width: 50%;
+    padding-bottom: 20px;
+    
     }
+    
     .activities {
         display: block;
     }
     .left-dashboard {
-    display: flex;
     bottom: 0;
     position: relative;
     width: 100%;
-    justify-content: space-between;
+    text-align: center;
+    }
+
+    .nuevo-habito-button{
+        font-size: 20px;
     }
     .reco {
     text-align: center;
     }
     .howdy {
-    text-align: left;
+    text-align: center;
+    padding-bottom: 30px;
     }
     .dashboard-activities {
     text-align: center;
+    padding-top: 50px;
     }
+
     .recomendaciones {
     flex-direction: column;
     text-align: center;
     }
+
     .rec-tool {
     justify-content: space-between;
     }
@@ -501,6 +529,7 @@ select:-moz-focusring {
     align-self: center;
     float: none;
     margin: 0 auto;
+    padding: 0;
     }
     .container-sharing p {
     text-align: justify;
